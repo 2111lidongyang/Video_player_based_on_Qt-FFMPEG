@@ -18,6 +18,6 @@ ui文件主要存放在Forms文件加下、.CPP文件存放在Sources文件夹�
 
 ![本地视频播放列表](https://github.com/2111lidongyang/Video_player_based_on_Qt-FFMPEG/blob/main/img/%25HXU%5B5N5L%7BM%7B%5BX9%7B1M5YNU5.png)
 
-![在线视频播放以及倍数播放](https://github.com/2111lidongyang/Video_player_based_on_Qt-FFMPEG/blob/main/img/%40{4(%R(FWM[[RZ0L(1J{KC1.png))
+![在线视频播放以及倍数播放](https://github.com/2111lidongyang/Video_player_based_on_Qt-FFMPEG/blob/main/img/%40{4(%R(FWM[[RZ0L(1J{KC1.png)
 
-![视频推荐功能](https://github.com/2111lidongyang/Video_player_based_on_Qt-FFMPEG/blob/main/img/YFD0EF(N46B5~78[U2QRBZ3.png))
+![视频推荐功能](https://github.com/2111lidongyang/Video_player_based_on_Qt-FFMPEG/blob/main/img/YFD0EF(N46B5~78[U2QRBZ3.png)
