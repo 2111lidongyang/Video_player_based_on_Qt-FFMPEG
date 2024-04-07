@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Index</class>
+ <widget class="QWidget" name="Index">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1244</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Index</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">.QFrame{
+	
+	background-color: rgb(37, 37, 37);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">.QFrame{
+	
+	background-color: rgb(42, 42, 42);
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">.QLabel{
+	font: 400 18px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string>TiLiTiLi视频播放器</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">.QPushButton{
+	font: 400 18px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string>会员</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">.QPushButton{
+	font: 400 18px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">.QPushButton{
+	font: 400 18px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>386</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">.QLineEdit{
+	background-color: rgb(75,75,75);
+	border-radius: 15px;
+	color:rgb(255, 255, 255)
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="placeholderText">
+            <string>搜索</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="styleSheet">
+            <string notr="true">.QPushButton{
+	font: 400 18px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string>搜索视频</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="logo_label">
+           <property name="minimumSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(37, 37, 37);</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="page">
+         <layout class="QGridLayout" name="gridLayout_11" rowstretch="2,8,8">
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="styleSheet">
+               <string notr="true">.QLabel{
+	font: 800 18px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+              </property>
+              <property name="text">
+               <string>首页推荐</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_10">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_4">
+              <property name="styleSheet">
+               <string notr="true">.QPushButton{
+	font: 800 18px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+              </property>
+              <property name="text">
+               <string>换一批</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_15">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>10</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <property name="leftMargin">
+             <number>6</number>
+            </property>
+            <property name="topMargin">
+             <number>6</number>
+            </property>
+            <property name="rightMargin">
+             <number>6</number>
+            </property>
+            <property name="bottomMargin">
+             <number>6</number>
+            </property>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_3" rowstretch="10,0" columnstretch="1,0">
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="videolabel">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="mouseTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="contextMenuPolicy">
+                 <enum>Qt::DefaultContextMenu</enum>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	border: 1px solid white;
+	
+	font: 87 48px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Plain</enum>
+                </property>
+                <property name="text">
+                 <string>Loading</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="margin">
+                 <number>0</number>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="label_4">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	font: 400 16px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>推荐视频1</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_4" rowstretch="10,0" columnstretch="1,0">
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="label_9">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	font: 400 16px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>推荐视频2</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="videolabel_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	border: 1px solid white;
+	
+	font: 87 48px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Loading</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_5" rowstretch="10,0" columnstretch="1,0">
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="videolabel_3">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	border: 1px solid white;
+	
+	font: 87 48px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Loading</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="label_13">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	font: 400 16px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>推荐视频3</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_6" rowstretch="10,0" columnstretch="1,0">
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="label_17">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	font: 400 16px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>推荐视频4</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="videolabel_4">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	border: 1px solid white;
+	
+	font: 87 48px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Loading</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item row="2" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <property name="leftMargin">
+             <number>6</number>
+            </property>
+            <property name="topMargin">
+             <number>6</number>
+            </property>
+            <property name="rightMargin">
+             <number>6</number>
+            </property>
+            <property name="bottomMargin">
+             <number>6</number>
+            </property>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_7" rowstretch="10,0" columnstretch="1,0">
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="videolabel_5">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	border: 1px solid white;
+	
+	font: 87 48px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Loading</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="label_22">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	font: 400 16px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>推荐视频5</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_8" rowstretch="10,0" columnstretch="1,0">
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="videolabel_6">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	border: 1px solid white;
+	
+	font: 87 48px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Loading</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="label_25">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	font: 400 16px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>推荐视频6</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_9" rowstretch="10,0" columnstretch="1,0">
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="label_30">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	font: 400 16px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>推荐视频7</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="videolabel_7">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	border: 1px solid white;
+	
+	font: 87 48px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Loading</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_10" rowstretch="10,0" columnstretch="1,0">
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="label_34">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	font: 400 16px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: white;
+	border: none;
+	background-color: rgba(27, 37, 36, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>推荐视频8</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="videolabel_8">
+                <property name="styleSheet">
+                 <string notr="true">.QLabel{
+	border: 1px solid white;
+	
+	font: 87 48px &quot;Alibaba PuHuiTi 3.0&quot;;
+	color: rgb(255, 255, 255);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Loading</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="page_2"/>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
